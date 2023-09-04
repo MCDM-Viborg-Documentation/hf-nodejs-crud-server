@@ -208,6 +208,24 @@ Og dette ``callback`` pattern vil vi så benytte igen og igen for alle vores end
 
 Fordelen er at vi nu i vores ``user håndtering kan aflevere forskellige retur objekter og forskellige koder alt efter om vores arbejde med dataen gå godt, er tilgængelig, kræver authentication osv.
 
+## Afslutning Step 02.
+
+Nu kan vi gå flere veje.
+
+Vi kunne vælge at gemme i json filer på vores server og vi kan vælge at gemme i database.
+
+Vi vælger i første omgang at gemme i MongoDB det er mest hensigtsmæssig da det gør vores arbejde nemmere og samtidigt får en masse andre muligheder som vil være enormt tidskrævene at skabe selv.
+
+Backup, indeksering, query-muligheder for at slå vores data op osv osv argumenterne er mange.
+
+Men der er tilfælde hvor vi sagtens kan nøjes med at læsen en lille fil. Det kunne være configuartions variabler eller et navigations setup som bare skal styres via lidt json. 
+
+Det handler i virkeligheden om behov omkring det enkelte produkt og omstændighederne.
+
+Step 03 kræver MongoDB Community Edition.
+
+
+
 
 
 
