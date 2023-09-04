@@ -9,4 +9,9 @@ Vi opretter en simpel node server og opretter via endpoint brugere i en Mongo Da
 
 * Step 2
 
-## Step 3 - MongoDB.
+## Dokumentation
+
+* https://www.mongodb.com/docs/
+
+## Step 3 - MongoDB og mongoose.
+
