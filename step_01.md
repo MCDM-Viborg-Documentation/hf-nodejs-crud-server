@@ -14,30 +14,40 @@ Vi opretter en simpel node server og opretter via endpoint brugere i en Mongo Da
 * PostMan (https://www.postman.com/) eller Insomnia (https://insomnia.rest/).
 
 ## Documentation
+**Basis (*der findes mange entry level sites derude*)** 
+* https://www.w3schools.com/nodejs/
 
+#### Til brug i dette materiale
+
+**NodeJS**
 * https://nodejs.org/en/docs
 * https://expressjs.com/
-* https://www.w3schools.com/nodejs/
+
+** MongoDB **
+* https://www.mongodb.com/docs/
+* https://mongoosejs.com/docs/
+
+
 
 ## Installation
 * [NodeJS (LTS - Version).](https://nodejs.org/en) 
-* [MongoDB.](https://www.mongodb.com/docs/manual/administration/install-community/)
+* [MongoDB/Compass](https://www.mongodb.com/docs/manual/administration/install-community/)
 
 ```
-NB: MongoDB: det anbefales at i genstarter jeres maskine efter installation uanset hvad programmet fortæller jer.
+NB: MongoDB: det anbefales at i genstarter jeres maskine efter installation uanset hvad programmet fortæller jer. Compass er jeres GUI til mongoDB - det er det program hvor vi kan se vores data, som et 'excel agtigt' program.
 ```
 
-Check om i har MongoDB correct installeret, brug følgende commando i terminalen.:
+Check om i har MongoDB korrekt installeret, brug følgende kommando i terminalen.:
 ```
 mongod --version
 ```
 
-Check om i har NodeJS installeret, brug følgende commando i terminalen.:
+Check om i har NodeJS installeret, brug følgende kommando i terminalen.:
 ```
 node -v
 ```
 
-# 1. Step 1 : Kom igang med Node helt basic.
+# 1. Step 1 : Kom igang med Node, helt basic.
 
 * Opret en mappe og kald den "node-server"
 * Åben mappen i VisualCode.
