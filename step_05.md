@@ -34,9 +34,9 @@ Men lad os gøre vores håndtering lidt mere optimal.
 
 Hvis vi kigger på vores ``users.create`` funktion i ``users.js``.
 
-Så lad os lave den lidt om. Lad os tage højde for at vores database kan aflevere en fejl besked hvis noget ikke går som forventet. 
+Så lad os lave den lidt om. Lad os tage højde for at vores database kan aflevere en fejlbesked hvis noget ikke går som forventet. 
 
-Så nu opretter vi vores egen besked ``message`` og ``data`` som indeholder det data vi sender tilbage.
+Så nu opretter vi vores egen object med en ``message`` en besked, og ``data`` der indeholder det data vi sender tilbage.
 
 ```JavaScript
 users.create = (payload, callback) => {
