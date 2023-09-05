@@ -264,6 +264,16 @@ I klient mappen opretter vi følgende:
 * en ``client.js`` i ``scripts`` mappen. -> indsæt en console.log('client');
 * en ``client.css`` i ``styles`` mappen. -> Lav en body background-color.
 
+Client Folder Struktur.
+
+* Client
+  * index.html
+  * scripts
+    * index.js
+  * styles
+    * index.css
+
+
 I ``index.html`` linker du til dine client filer.
 
 ```html 
