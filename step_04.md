@@ -23,6 +23,9 @@ expresServer.use(express.json());
 expresServer.use(cors());
 ```
 
+HUSK: ``const cors = require('cors');``, vi skal require vores cors bibliotek som vi lige har installeret.
+
+
 Man kan arbejde med data i MongoDB på mange måder. Vi benytter en bibliotek der hjælper os med at gøre det nemmere at oprette modelle som vi kan gemme i databasen.
 
 En model og scheme er en beskrivelse af det data vi gerne vil gemme.
