@@ -396,6 +396,8 @@ Vi skal bare have `emailen` med hver gang til identifikation i vores `query`.
 **Vi kan **IKKE** opdatere med nye properties der ikke er en del af vores schema. 
 Du kan lave en objekt der kan indeholde *hvad som helst* og dermed overkomme dette "problem". Men det er ikke nu.! - Og selvfølgelig er der også andre måder at gøre det på - men det er klart med schema er man lidt mere låst, men omvendt er man også mere sikret.*
 
+## Afslutning Step 05.
+
 **Vi er i mål!**
 
 Sådan da. Men Vi har en ægte C.R.U.D på vores hænder. Vi kan Oprette, Læse, Opdatere og Slette.
@@ -403,9 +405,6 @@ Sådan da. Men Vi har en ægte C.R.U.D på vores hænder. Vi kan Oprette, Læse,
 Så nu kan vi udforske.! 
 
 Men vi starter skidt i Step 6.
-
-
-
 
 
 
