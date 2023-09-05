@@ -11,6 +11,18 @@ Vi opretter en simpel node server og opretter via endpoint brugere i en Mongo Da
 
 ## Step 4 : Mongoose & Modeller og Scheme.
 
+Vi skal installere en pakke:
+```
+npm install cors
+```
+
+Herefter skal vi indsætte to `use` funktionaliteter i `server.js`
+
+```JavaScript 
+expresServer.use(express.json());
+expresServer.use(cors());
+```
+
 Man kan arbejde med data i MongoDB på mange måder. Vi benytter en bibliotek der hjælper os med at gøre det nemmere at oprette modelle som vi kan gemme i databasen.
 
 En model og scheme er en beskrivelse af det data vi gerne vil gemme.
