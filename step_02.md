@@ -43,7 +43,7 @@ expresServer.get('/users', (req, res) => {
 Nu sender vi et ``respons`` med et ``json`` content header.
 Derfor sender vi også json data tilbage til modtageren.
 
-Nu kan vi teste det i PostMan ved at kalde ```http://localhost:3000/users``` med en ``POST`` metode.
+Nu kan vi teste det i PostMan ved at kalde ```http://localhost:3000/users``` med en ``GET`` metode.
 Resultate vil være:
 ```Json
 {
