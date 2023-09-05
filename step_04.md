@@ -9,7 +9,7 @@ Vi opretter en simpel node server og opretter via endpoint brugere i en Mongo Da
 
 * step 03
 
-## Step 4 : Mongoose & Modeller og Scheme.
+## Step 4 : Mongoose, Modeller & Scheme.
 
 Vi skal installere en pakke:
 ```
