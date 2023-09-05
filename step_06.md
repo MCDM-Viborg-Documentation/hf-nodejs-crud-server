@@ -49,5 +49,7 @@ Og husk det når i prøver fra `postman` vi har ændret `endpoint` til `/user`.
 
 Vi holder det til refakturering i denne opgave.
 
+I step 7 går vi til replikering...*næsten*
+
 
 
